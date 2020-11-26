@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Frankies Doughnuts</title>
+    <link rel="stylesheet" href="frankie.css">
+</head>
+
+<body>
+    <div id="container">
+
+    <div class="music-container">
+    <div class="musicbutton">
+        <button onclick="playMusic()" id="playmusic" type="button" name="button">Play music</button>
+        <button onclick="pauseMusic()" id="pausemusic" type="button" name="button">Pause music</button>
+    </div>
+    </div>
+
+   
+
+        <div class="treatsheader" onclick="dogTreats()">
+            <img src="dogtreats.png" alt="">
+        </div>
+
+        <div class="header">
+            <img class="mainlogo" src="mainlogo.png" alt="">
+        </div>
+
+        <div class="instructions">
+            <img src="topping.png" alt="" onmouseover= "instruct()" id="instruct">
+        </div>
+
+        <div class="fishheader" onclick="fishTails()">
+            <img src="fish.png" alt="">
+        </div>
+        
+
+        <div class="buttons" id="buttons">
+            <div class="badgerpoo">
+                <button onclick="badgerPoo()" id="badgerpoo" type="button" name="button">Badger poo</button>
+            </div>
+        
+            <div class="binjuice">
+                <button onclick="binJuice()" id="binjuice" type="button" name="button">Bin Juice</button>
+            </div>
+        
+            <div class="dogtreats">
+                <button onclick="dogTreats()" id="dogtreats" type="button" name="button">Dog Treats</button>
+            </div>
+        
+            <div class="Fish Tails">
+                <button onclick="fishTails()" id="fishtails" type="button" name="button">Fish Tails</button>
+            </div>
+        </div>
+
+
+        <div class="frankiehappy">
+            <img src="frankiehappy.png" alt="" onmouseover= "lick()">
+        </div>
+        <div class="frankiesad">
+            <img src="frankiesad.png" alt="" onmouseover= "lick()">
+        </div>
+        <div class="frankielick">
+            <img src="frankielick.png" alt="" onmouseover= "lick()">
+        </div>
+        <div class="frankielicking">
+            <img src="frankielicking.png" alt="" onmouseover= "lick()">
+        </div>
+
+       
+
+       
+        <div class="doughnut">
+            <img src="dougnut.png" alt="" id="doughnut">
+        </div>
+        <div class="bin">
+            <img src="binjuice.png" alt="" id="bin">
+        </div>
+        <div class="badger">
+            <img src="badgerpoo.png" alt="" id="badger">
+        </div>
+        <div class="fish">
+            <img src="fishtail.png" alt="" id="fish">
+        </div>
+        <div class="treats">
+            <img src="dogtreats.png" alt="" id="treats">
+        </div>
+
+        <div class="reset">
+            <img src="newdoughnut.png" alt="" onclick="reset()" id="reset">
+        </div>
+
+        <audio id="audio" src="Woof 3.mp3"></audio>
+        <audio id="sharp" src="Woof 5.mp3"></audio>
+        <audio id="double" src="DoubleWoof.mp3"></audio>
+        <audio id="woof" src="Woof 4.mp3"></audio>
+        <audio id="whimper" src="Growl 1.mp3"></audio>
+        <audio autoplay loop id="song">
+            <source src="FrankiesSong.mp3">
+        </audio>
+</div>
+
+
+
+    <script src="gridplay.js" type="text/javascript">
+
+    </script>
+</body>
+
+</html>
